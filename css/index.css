@@ -179,6 +179,9 @@ p {
   margin-left: 2rem;
   color: black;
 }
+.top nav a:hover {
+  color: blue;
+}
 .top img {
   width: 100%;
 }

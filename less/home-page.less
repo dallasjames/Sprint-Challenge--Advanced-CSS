@@ -58,6 +58,7 @@
       }
 
       .btn {
+        .button();
       }
     }
 
@@ -72,4 +73,24 @@
       }
     }
   }
-}// home
+}
+@media @phone {
+    .home .space-images img:nth-child(2) {
+      display: none;
+  }
+
+  .space-images img.launch {
+      display: none;
+      visibility: hidden;
+  }
+
+  .home .walk {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .home .walk .walk-text .btn {
+    .button-mobile();
+  }
+}
+// home

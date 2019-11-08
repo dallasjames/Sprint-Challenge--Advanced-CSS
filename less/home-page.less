@@ -58,6 +58,7 @@
       }
 
       .btn {
+        .button();
       }
     }
 
@@ -72,4 +73,38 @@
       }
     }
   }
-}// home
+}
+@media @phone {
+  .home .space-images img.sky {
+    display: none;
+  }
+
+  .space-images img.launch {
+    display: none;
+    visibility: hidden;
+  }
+
+  .space-images img.blast {
+    width: 95%;
+  }
+
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .home .walk .walk-text {
+    width: 95%;
+  }
+  
+  .home .walk .walk-img {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+
+  .home .walk .walk-text .btn {
+    .button-mobile();
+  }
+}
+// home
